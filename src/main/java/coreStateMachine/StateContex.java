@@ -1,3 +1,8 @@
+package coreStateMachine;
+
+
+import coreStateMachine.state.State;
+
 /**
  * Created by Mingyi-PC on 02/10/2016.
  *
@@ -10,7 +15,7 @@ public class StateContex {
         state = null;
     }
 
-    public void setState(State state){
+    public void setState(State state) {
         this.state = state;
     }
 

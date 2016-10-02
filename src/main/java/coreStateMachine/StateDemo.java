@@ -1,3 +1,11 @@
+package coreStateMachine;
+
+
+import coreStateMachine.state.Confirmed;
+import coreStateMachine.state.Firm;
+import coreStateMachine.state.Indicative;
+import coreStateMachine.state.State;
+
 /**
  * Created by Mingyi-PC on 02/10/2016.
  *

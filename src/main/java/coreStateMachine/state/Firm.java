@@ -1,3 +1,7 @@
+package coreStateMachine.state;
+
+import coreStateMachine.StateContex;
+
 /**
  * Created by Mingyi-PC on 02/10/2016.
  *
@@ -12,7 +16,7 @@ public class Firm implements State {
     }
 
     public void doAction(StateContex stateContex) {
-        System.out.println("Starting Firm");
+        System.out.println("Starting coreStateMachine.state.Firm");
         stateContex.setState(this);
     }
 }

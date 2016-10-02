@@ -1,3 +1,7 @@
+package coreStateMachine.state;
+
+import coreStateMachine.StateContex;
+
 /**
  * Created by Mingyi-PC on 02/10/2016.
  *
