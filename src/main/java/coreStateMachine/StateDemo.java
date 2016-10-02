@@ -20,7 +20,7 @@ public class StateDemo {
     }
 
     public static void main(String[] args) {
-        ApplicationContext springContex = new ClassPathXmlApplicationContext("classpath:/Beans.xml");
+        ApplicationContext springContex = new ClassPathXmlApplicationContext("classpath:/coreStateMachine/beanXml/stateCore.xml");
         StateDemo state = (StateDemo) springContex.getBean("state");
         state.start();
 //        State indicative = new Indicative();
