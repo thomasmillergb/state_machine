@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--<bean name="state" class="coreStateMachine.StateDemo">-->
+        <!--<property name="states">-->
+            <!--<list value-type="coreStateMachine.state.State">-->
+                <!--<ref bean="indicative"/>-->
+                <!--<ref bean="firm"/>-->
+                <!--<ref bean="confirmed"/>-->
+            <!--</list>-->
+        <!--</property>-->
+        <!--<property name="stateContex" ref="stateContex"/>-->
+    <!--</bean>-->
+
+    <!--<bean name="stateContex" class="coreStateMachine.StateContex">-->
+
+    <!--</bean>-->
+    <!--<bean name ="confirmed" class="coreStateMachine.state.Confirmed">-->
+
+    <!--</bean>-->
+    <!--<bean name ="firm" class="coreStateMachine.state.Firm">-->
+
+    <!--</bean>-->
+    <!--<bean name ="indicative" class="coreStateMachine.state.Indicative">-->
+
+    <!--</bean>-->
+</beans>
